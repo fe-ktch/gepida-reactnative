@@ -33,10 +33,18 @@ render() {
 }
 
 const styles = StyleSheet.create({
-  container: {
+  container: { 
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    padding: 18,
+    paddingTop: 35,
+    backgroundColor: '#ffffff' 
   },
+  HeadStyle: { 
+    height: 50,
+    alignContent: "center",
+    backgroundColor: '#ffe0f0'
+  },
+  TableText: { 
+    margin: 10
+  }
 });
